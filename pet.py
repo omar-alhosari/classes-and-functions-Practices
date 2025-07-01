@@ -14,3 +14,10 @@ class Pet:
         self.age += 1
     def rename(self, new_name):
         self.name = new_name
+shelter_pets = [
+    Pet("Max", "dog", 4, adopted=True),
+    Pet("Luna", "cat", 2),
+    Pet("Coco", "rabbit", 1),
+    Pet("Buddy", "dog", 3, adopted=True),
+    Pet("Milo", "cat", 5)
+]
