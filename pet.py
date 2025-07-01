@@ -7,3 +7,8 @@ class Pet:
 
     def display_info(self):
         print(f"{self.name} is a {self.age}-year-old {self.species}. Adopted: {self.adopted}")
+    def mark_adopted(self):
+        self.adopted = True
+
+    def birthday(self):
+        self.age += 1
