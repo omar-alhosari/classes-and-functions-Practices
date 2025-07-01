@@ -21,3 +21,9 @@ shelter_pets = [
     Pet("Buddy", "dog", 3, adopted=True),
     Pet("Milo", "cat", 5)
 ]
+def find_available_pets(pet_list):
+    return [pet for pet in pet_list if not pet.adopted]
+
+available_pets = find_available_pets(shelter_pets)
+for pet in available_pets:
+    pet.display_info()
