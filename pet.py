@@ -12,3 +12,5 @@ class Pet:
 
     def birthday(self):
         self.age += 1
+    def rename(self, new_name):
+        self.name = new_name
